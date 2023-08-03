@@ -1,0 +1,29 @@
+<section id="details" class="d-flex align-items-center">
+    <div class="container">
+      <div class="row">     
+        <div class="col-lg-12 order-1 order-lg-2 hero-img d-flex justify-content-center">
+          <img src='{{"assets/img/" + currentServiceData.imgSrc}}' class="img-fluid" alt="" />
+        </div>
+      </div>
+      <div class="content">
+      <div class="row">     
+       <h2>{{currentServiceData.title}}</h2>
+       <p>{{currentServiceData.description}}</p>
+      </div>
+      <div class="row">
+        <ul>
+            <li *ngFor="let service of currentServiceData.services">
+                <h3>{{service.title}}</h3>
+                <p>{{service.desc}}</p>
+
+            </li>
+        </ul>
+        <a class="btn btn-primary btn-lg btn-custom" href="#services">
+          <i class="bi bi-arrow-left"></i>
+          Go back
+        </a>
+      </div>
+    </div>
+
+    </div>
+  </section>

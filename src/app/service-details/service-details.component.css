@@ -1,0 +1,47 @@
+.img-fluid {
+    margin-top: 110px;
+    width: 100%;
+  }
+
+  .content{
+    margin-top: 50px;
+    padding: 0;
+  }
+
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    font-family: "Dosis", sans-serif;
+  }
+
+h2 {
+    color: #76534d;
+    margin: 10px 0 0 0;
+    font-size: 28px;
+  }
+
+  h3 {
+    font-size: 20px;
+    font-weight: bold;
+    margin: 10px 0 5px 0;
+    color: #76534d;
+  }
+
+  ul li {
+    list-style-type: none;
+  }
+
+  .btn-custom {
+    background-color: #bb8981;
+    border-color: #bb8981;
+    width : 150px;
+  }
+  
+  .btn-custom:hover {
+    background-color: #c39b95;
+    border-color: #c39b95;
+  }
+  

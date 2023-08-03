@@ -768,6 +768,7 @@ body {
   .btn-custom {
     background-color: #bb8981;
     border-color: #bb8981;
+    color: #fff;
   }
   
   .btn-custom:hover {
